@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "aws --profile jeeng s3 sync ./ s3://localstorage.jeeng.com/ --exclude=*.git/*"
+    "deploy": "aws --profile jeeng s3 sync ./ s3://demo.localstorage.jeeng.com/ --exclude=*.git/*"
   },
   "license": "MIT"
 }
